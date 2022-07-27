@@ -49,19 +49,26 @@ body{
 
 /* activity section */
 
+.activity-div{
+    padding: 0px 15px;
+}
+
 #activity-section{
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
-    text-align: center;
     background: #F1FAEE;
     margin: 0 auto;
     height: 403px;
-   
 }
 
 #activity-h3-font{
     font-family: 'Open Sans', sans-serif;
+    text-align: center; 
+}
+
+#activity-p-font{
+    text-align: left;
 }
 
 #activity-section img{
